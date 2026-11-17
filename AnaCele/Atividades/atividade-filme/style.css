@@ -14,19 +14,19 @@
 }
 
 body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
+    background-color: var(#171717);
+    color: var(#f5e8cf);
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: var(--cor-principal);
+    background-color: var(#5c351e);
     text-align: center;
     padding: 30px;
 }
 
 header h1 {
-    color: var(--cor-destaque);
+    color: var(#d6a84f);
     font-size: 36px;
 }
 
@@ -39,13 +39,13 @@ nav {
 }
 
 nav a {
-    color: var(--cor-texto);
+    color: var(#f5e8cf);
     text-decoration: none;
     margin: 10px;
 }
 
 nav a:hover {
-    color: var(--cor-destaque);
+    color: var(#d6a84f);
 }
 
 main {
@@ -55,12 +55,12 @@ main {
 }
 
 section {
-    padding: var(--espacamento);
+    padding: var();
     margin-top: 20px;
 }
 
 h2 {
-    color: var(--cor-destaque);
+    color: var(#d6a84f);
     margin-bottom: 15px;
 }
 
@@ -83,31 +83,31 @@ p {
     line-height: 1.6;
 }
 
-#elenco {
+elenco {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
 
-#elenco h2 {
+elenco h2 {
     width: 100%;
 }
 
-#elenco article {
-    background-color: var(--cor-principal);
+elenco article {
+    background-color: var();
     padding: 20px;
     border-radius: 10px;
     flex: 1;
     min-width: 180px;
 }
 
-#elenco h3 {
-    color: var(--cor-destaque);
+elenco h3 {
+    color: var(#d6a84f);
     margin-bottom: 10px;
 }
 
 footer {
-    background-color: var(--cor-principal);
+    background-color: var(#5c351e);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
